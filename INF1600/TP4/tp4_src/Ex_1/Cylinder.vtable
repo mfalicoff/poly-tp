@@ -1,0 +1,11 @@
+Vtable for Cylinder
+Cylinder::_ZTV8Cylinder: 11u entries
+8     (int (*)(...))Cylinder::PerimeterCpp
+12    (int (*)(...))Cylinder::PerimeterAsm
+16    (int (*)(...))Cylinder::AreaCpp
+20    (int (*)(...))Cylinder::AreaAsm
+24    (int (*)(...))Cylinder::Name
+28    (int (*)(...))Cylinder::BaseAreaCpp
+32    (int (*)(...))Cylinder::BaseAreaAsm
+36    (int (*)(...))Cylinder::LateralAreaCpp
+40    (int (*)(...))Cylinder::LateralAreaAsm

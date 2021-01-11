@@ -1,0 +1,9 @@
+Vtable for Rectangle
+Rectangle::_ZTV9Rectangle: 9u entries
+8     (int (*)(...))Rectangle::PerimeterCpp
+12    (int (*)(...))Rectangle::PerimeterAsm
+16    (int (*)(...))Rectangle::AreaCpp
+20    (int (*)(...))Rectangle::AreaAsm
+24    (int (*)(...))Rectangle::Name
+28    (int (*)(...))Rectangle::DiagonalCpp
+32    (int (*)(...))Rectangle::DiagonalAsm
