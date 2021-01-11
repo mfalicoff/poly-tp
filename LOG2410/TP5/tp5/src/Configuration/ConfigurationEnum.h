@@ -1,0 +1,1 @@
+enum Configuration { CONFIG_A, CONFIG_B, CONFIG_C };
