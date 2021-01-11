@@ -1,0 +1,11 @@
+NurseUserID,PatientUserID,Date,AM/PM,Reason
+
+mclouis,jo411,27/10/2021,am,grippe
+manononon,jo411,10/10/2020,pm,grippe
+manononon,jo411,28/02/2021,am,covid-19
+manononon,jo411,20,am,covid-19
+manononon,jo411,2,2,alla
+manononon,jo411,3,3,covid-19
+mclouis,jo411,1,1,covid
+manononon,jo411,2,2,covid-19
+mclouis,jo411,1,1,covid-19
