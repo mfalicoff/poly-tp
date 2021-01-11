@@ -10,3 +10,13 @@ INF2010/TP5/tp5/gradle/
 INF2010/TP5/tp5/build/
 
 INF2010/TP5/tp5/.gradle/
+
+*.hex
+
+*.out
+
+*.map
+
+*.d
+
+*.elf
