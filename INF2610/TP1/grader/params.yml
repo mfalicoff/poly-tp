@@ -1,0 +1,119 @@
+ALICE_PROCNAME: yetta
+BOB_PROCNAME: salvador
+GRADING_LOG_PATH: /tmp/processlab_autograde
+OBFUSCATE_MASK: 60b3669be6479c3aa510acad7b0b417659c7f24b6726511374ec4553cbfb6c6a7d0b6dc0d0da8be67b7e3832eb93d404e25458382fa64c5c728703fdb2d2ea5b27fc3bf567a645b01fa1d542a7c6b06fa39f88d9da92aef7de510da934cdce6b128f05e059db92a4acb2bb55bdce7ee83425b40c75c064d7b93a3306b2f304d39230351ba2f9b55a7dae606ce02c8a4cbbc58914d908b40b5f9ab3d00f223830b1afa0c19e2989d8ac904e1a967fc51281f288f41b2b99a18bb501e4be66d689d771471d5f1fbe56e7617d026bd06faf99afa13aa056822fcaa21b3c301a6bbedebe9b8d450caca699a7b48087ecb8ca391cc5d4918b17453bfd52b47c14201ace9edeb5ca4d55cbfc6343e3ee4618d61d7eddced6053484c089ee3be5413854d0e7942d404fa8c3ebb679e8
+PART2_LTRACE_LOG_PATH: /tmp/processlab_autograde_ltrace_part2
+PART2_PRINTF_PROCESSES_LIST: level0, level1.1, level1.2, level2.1, level2.5, level2.7
+PART2_PROCESS_TREE:
+  children:
+  - children:
+    - level: 2
+      name: level2.1
+      print: true
+      token: ''
+    - level: 2
+      name: level2.2
+      print: false
+      token: ''
+    - level: 2
+      name: level2.3
+      print: false
+      token: ''
+    - level: 2
+      name: level2.4
+      print: false
+      token: ''
+    level: 1
+    name: level1.1
+    print: true
+    token: f90788f825d4
+  - children:
+    - level: 2
+      name: level2.5
+      print: true
+      token: ''
+    - level: 2
+      name: level2.6
+      print: false
+      token: ''
+    - level: 2
+      name: level2.7
+      print: true
+      token: ''
+    level: 1
+    name: level1.2
+    print: true
+    token: edf1959a6878
+  level: 0
+  name: level0
+  print: true
+  token: f90788f825d4edf1959a6878
+PART2_PROCESS_TREE_PSTRICKS: \\\pstree{\\\Tcircle{level0}}{\\\pstree{\\\Tcircle{level1.1}}{\\\Tcircle{level2.1}
+  \\\Tcircle{level2.2} \\\Tcircle{level2.3} \\\Tcircle{level2.4} }\\\pstree{\\\Tcircle{level1.2}}{\\\Tcircle{level2.5}
+  \\\Tcircle{level2.6} \\\Tcircle{level2.7} }}
+PART2_Q4_ENV_KEY: NOCHILD_TOKEN
+PART2_Q4_ENV_KEY_LENGTH: 13
+PART2_Q4_ENV_KEY_OBF: '{120, 127, 33, 123, 127, 122, 125, 61, 49, 121, 127, 114, 119}'
+PART2_Q4_PROC_NUM: 2
+PART2_STRACE_LOG_PATH: /tmp/processlab_autograde_strace_part2
+PID_KEY: --P
+PROC0_LEVEL: 0
+PROC0_NAME: level0
+PROC0_TOKEN: f90788f825d4edf1959a6878
+PROC0_TOKEN_LENGTH: 24
+PROC0_TOKEN_OBF: '{80, 9, 82, 4, 14, 14, 95, 90, 87, 3, 80, 3, 92, 7, 85, 80, 88,
+  0, 8, 81, 87, 91, 86, 92}'
+PROC1_LEVEL: 1
+PROC1_NAME: level1.2
+PROC1_TOKEN: edf1959a6878
+PROC1_TOKEN_LENGTH: 12
+PROC1_TOKEN_OBF: '{83, 84, 4, 2, 15, 3, 0, 3, 83, 14, 3, 15}'
+PROC2_LEVEL: 2
+PROC2_NAME: level2.7
+PROC2_TOKEN: ''
+PROC2_TOKEN_LENGTH: 0
+PROC2_TOKEN_OBF: '{}'
+PROC3_LEVEL: 2
+PROC3_NAME: level2.6
+PROC3_TOKEN: ''
+PROC3_TOKEN_LENGTH: 0
+PROC3_TOKEN_OBF: '{}'
+PROC4_LEVEL: 2
+PROC4_NAME: level2.5
+PROC4_TOKEN: ''
+PROC4_TOKEN_LENGTH: 0
+PROC4_TOKEN_OBF: '{}'
+PROC5_LEVEL: 1
+PROC5_NAME: level1.1
+PROC5_TOKEN: f90788f825d4
+PROC5_TOKEN_LENGTH: 12
+PROC5_TOKEN_OBF: '{80, 9, 82, 4, 14, 14, 95, 90, 87, 3, 80, 3}'
+PROC6_LEVEL: 2
+PROC6_NAME: level2.4
+PROC6_TOKEN: ''
+PROC6_TOKEN_LENGTH: 0
+PROC6_TOKEN_OBF: '{}'
+PROC7_LEVEL: 2
+PROC7_NAME: level2.3
+PROC7_TOKEN: ''
+PROC7_TOKEN_LENGTH: 0
+PROC7_TOKEN_OBF: '{}'
+PROC8_LEVEL: 2
+PROC8_NAME: level2.2
+PROC8_TOKEN: ''
+PROC8_TOKEN_LENGTH: 0
+PROC8_TOKEN_OBF: '{}'
+PROC9_LEVEL: 2
+PROC9_NAME: level2.1
+PROC9_TOKEN: ''
+PROC9_TOKEN_LENGTH: 0
+PROC9_TOKEN_OBF: '{}'
+Q1_LTRACE_LOG_PATH: /tmp/processlab_autograde_ltrace_q1
+TOKEN1: 5b66f7e634e655e2c3848e89
+TOKEN1_LENGTH: 24
+TOKEN1_OBF: '{3, 82, 84, 5, 80, 1, 92, 84, 86, 2, 81, 1, 12, 86, 86, 83, 2, 6, 9,
+  4, 89, 6, 89, 93}'
+TOKEN_1: 44b014bef71345075b78cb1d6402e4f0
+TOKEN_1_LEN: 16
+TOKEN_1_OBF: '{5, 13, 82, 86, 7, 2, 0, 7, 0, 5, 3, 85, 81, 86, 81, 14, 6, 83, 85,
+  15, 81, 81, 1, 7, 1, 6, 4, 5, 7, 2, 82, 7}'
