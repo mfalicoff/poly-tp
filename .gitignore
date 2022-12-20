@@ -20,3 +20,5 @@ INF2010/TP5/tp5/.gradle/
 *.d
 
 *.elf
+
+*.DS_Store
