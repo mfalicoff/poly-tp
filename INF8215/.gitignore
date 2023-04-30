@@ -1,0 +1,4 @@
+
+*.DS_Store
+
+TP1/src/__pycache__/
