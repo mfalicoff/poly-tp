@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PrintTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="Template" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="analyzer.tests.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="analyzer.tests" />
+    <option name="MAIN_CLASS_NAME" value="analyzer.tests.PrintTest" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <option name="PARAMETERS" value="[./test-suite/PrintTest/data/exemples.le]" />
+    <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
