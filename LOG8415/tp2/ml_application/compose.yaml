@@ -1,0 +1,11 @@
+services:
+  ml_app_1:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+  ml_app_2:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "5001:5000"

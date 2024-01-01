@@ -1,0 +1,28 @@
+# Proxy IP
+%{ for index, addr in proxy_ip_addrs_public ~}
+PROXY_PUBLIC_IP=${addr}
+%{ endfor ~}
+
+# Manager IP
+%{ for index, addr in manager_ip_addrs_public ~}
+MANAGER_PUBLIC_IP=${addr}
+%{ endfor ~}
+%{ for index, addr in manager_ip_addrs_private ~}
+MANAGER_PRIVATE_IP=${addr}
+%{ endfor ~}
+
+# Workers IP
+%{ for index, addr in workers_ip_addrs_public ~}
+WORKER${index+1}_PUBLIC_IP=${addr}
+%{ endfor ~}
+
+# Workers Instance ID
+%{ for index, id in workers_instance_ids ~}
+WORKER${index+1}_INSTANCE_ID=${id}
+%{ endfor ~}
+
+# SSH Key Location
+SSH_KEY_LOCATION=${ssh_keyfile}
+
+
+
