@@ -22,3 +22,10 @@ INF2010/TP5/tp5/.gradle/
 *.elf
 
 *.DS_Store
+
+**/__pycache__/
+**/.idea/
+
+INF8775/tp1/src/data/
+
+INF8775/tp2/samples/
