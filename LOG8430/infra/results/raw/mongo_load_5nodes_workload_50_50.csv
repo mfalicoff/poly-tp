@@ -1,0 +1,600 @@
+
+##################################################################################
+
+Running Load workload try 1
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 184
+[OVERALL], Throughput(ops/sec), 5434.782608695652
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 682.0
+[CLEANUP], MinLatency(us), 682
+[CLEANUP], MaxLatency(us), 682
+[CLEANUP], 95thPercentileLatency(us), 682
+[CLEANUP], 99thPercentileLatency(us), 682
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 125.451
+[INSERT], MinLatency(us), 12
+[INSERT], MaxLatency(us), 70335
+[INSERT], 95thPercentileLatency(us), 85
+[INSERT], 99thPercentileLatency(us), 213
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 2
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 179
+[OVERALL], Throughput(ops/sec), 5586.592178770949
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 699.0
+[CLEANUP], MinLatency(us), 699
+[CLEANUP], MaxLatency(us), 699
+[CLEANUP], 95thPercentileLatency(us), 699
+[CLEANUP], 99thPercentileLatency(us), 699
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 112.723
+[INSERT], MinLatency(us), 11
+[INSERT], MaxLatency(us), 68991
+[INSERT], 95thPercentileLatency(us), 84
+[INSERT], 99thPercentileLatency(us), 166
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 3
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 194
+[OVERALL], Throughput(ops/sec), 5154.639175257732
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 848.0
+[CLEANUP], MinLatency(us), 848
+[CLEANUP], MaxLatency(us), 848
+[CLEANUP], 95thPercentileLatency(us), 848
+[CLEANUP], 99thPercentileLatency(us), 848
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 124.956
+[INSERT], MinLatency(us), 23
+[INSERT], MaxLatency(us), 71871
+[INSERT], 95thPercentileLatency(us), 92
+[INSERT], 99thPercentileLatency(us), 161
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 4
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 191
+[OVERALL], Throughput(ops/sec), 5235.602094240838
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 607.0
+[CLEANUP], MinLatency(us), 607
+[CLEANUP], MaxLatency(us), 607
+[CLEANUP], 95thPercentileLatency(us), 607
+[CLEANUP], 99thPercentileLatency(us), 607
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 126.409
+[INSERT], MinLatency(us), 11
+[INSERT], MaxLatency(us), 68543
+[INSERT], 95thPercentileLatency(us), 119
+[INSERT], 99thPercentileLatency(us), 246
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 5
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 194
+[OVERALL], Throughput(ops/sec), 5154.639175257732
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 662.0
+[CLEANUP], MinLatency(us), 662
+[CLEANUP], MaxLatency(us), 662
+[CLEANUP], 95thPercentileLatency(us), 662
+[CLEANUP], 99thPercentileLatency(us), 662
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 136.401
+[INSERT], MinLatency(us), 9
+[INSERT], MaxLatency(us), 71359
+[INSERT], 95thPercentileLatency(us), 92
+[INSERT], 99thPercentileLatency(us), 206
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 6
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 171
+[OVERALL], Throughput(ops/sec), 5847.953216374269
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 671.0
+[CLEANUP], MinLatency(us), 671
+[CLEANUP], MaxLatency(us), 671
+[CLEANUP], 95thPercentileLatency(us), 671
+[CLEANUP], 99thPercentileLatency(us), 671
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 110.297
+[INSERT], MinLatency(us), 10
+[INSERT], MaxLatency(us), 65983
+[INSERT], 95thPercentileLatency(us), 83
+[INSERT], 99thPercentileLatency(us), 208
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 7
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 187
+[OVERALL], Throughput(ops/sec), 5347.593582887701
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 670.0
+[CLEANUP], MinLatency(us), 670
+[CLEANUP], MaxLatency(us), 670
+[CLEANUP], 95thPercentileLatency(us), 670
+[CLEANUP], 99thPercentileLatency(us), 670
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 127.993
+[INSERT], MinLatency(us), 6
+[INSERT], MaxLatency(us), 70271
+[INSERT], 95thPercentileLatency(us), 90
+[INSERT], 99thPercentileLatency(us), 176
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 8
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 165
+[OVERALL], Throughput(ops/sec), 6060.606060606061
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 717.0
+[CLEANUP], MinLatency(us), 717
+[CLEANUP], MaxLatency(us), 717
+[CLEANUP], 95thPercentileLatency(us), 717
+[CLEANUP], 99thPercentileLatency(us), 717
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 107.834
+[INSERT], MinLatency(us), 11
+[INSERT], MaxLatency(us), 62527
+[INSERT], 95thPercentileLatency(us), 92
+[INSERT], 99thPercentileLatency(us), 161
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 9
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 179
+[OVERALL], Throughput(ops/sec), 5586.592178770949
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 598.0
+[CLEANUP], MinLatency(us), 598
+[CLEANUP], MaxLatency(us), 598
+[CLEANUP], 95thPercentileLatency(us), 598
+[CLEANUP], 99thPercentileLatency(us), 598
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 118.574
+[INSERT], MinLatency(us), 8
+[INSERT], MaxLatency(us), 67711
+[INSERT], 95thPercentileLatency(us), 91
+[INSERT], 99thPercentileLatency(us), 172
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 10
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 193
+[OVERALL], Throughput(ops/sec), 5181.347150259067
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 684.0
+[CLEANUP], MinLatency(us), 684
+[CLEANUP], MaxLatency(us), 684
+[CLEANUP], 95thPercentileLatency(us), 684
+[CLEANUP], 99thPercentileLatency(us), 684
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 131.917
+[INSERT], MinLatency(us), 13
+[INSERT], MaxLatency(us), 86527
+[INSERT], 95thPercentileLatency(us), 89
+[INSERT], 99thPercentileLatency(us), 171
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 1
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 177
+[OVERALL], Throughput(ops/sec), 5649.717514124294
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 663.0
+[CLEANUP], MinLatency(us), 663
+[CLEANUP], MaxLatency(us), 663
+[CLEANUP], 95thPercentileLatency(us), 663
+[CLEANUP], 99thPercentileLatency(us), 663
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 116.249
+[INSERT], MinLatency(us), 12
+[INSERT], MaxLatency(us), 72639
+[INSERT], 95thPercentileLatency(us), 90
+[INSERT], 99thPercentileLatency(us), 141
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 2
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 188
+[OVERALL], Throughput(ops/sec), 5319.148936170212
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 813.0
+[CLEANUP], MinLatency(us), 813
+[CLEANUP], MaxLatency(us), 813
+[CLEANUP], 95thPercentileLatency(us), 813
+[CLEANUP], 99thPercentileLatency(us), 813
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 126.806
+[INSERT], MinLatency(us), 13
+[INSERT], MaxLatency(us), 75135
+[INSERT], 95thPercentileLatency(us), 112
+[INSERT], 99thPercentileLatency(us), 223
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 3
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 189
+[OVERALL], Throughput(ops/sec), 5291.005291005291
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 747.0
+[CLEANUP], MinLatency(us), 747
+[CLEANUP], MaxLatency(us), 747
+[CLEANUP], 95thPercentileLatency(us), 747
+[CLEANUP], 99thPercentileLatency(us), 747
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 126.552
+[INSERT], MinLatency(us), 12
+[INSERT], MaxLatency(us), 78911
+[INSERT], 95thPercentileLatency(us), 103
+[INSERT], 99thPercentileLatency(us), 197
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 4
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 180
+[OVERALL], Throughput(ops/sec), 5555.555555555556
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 854.0
+[CLEANUP], MinLatency(us), 854
+[CLEANUP], MaxLatency(us), 854
+[CLEANUP], 95thPercentileLatency(us), 854
+[CLEANUP], 99thPercentileLatency(us), 854
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 118.561
+[INSERT], MinLatency(us), 16
+[INSERT], MaxLatency(us), 68095
+[INSERT], 95thPercentileLatency(us), 87
+[INSERT], 99thPercentileLatency(us), 155
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 5
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 189
+[OVERALL], Throughput(ops/sec), 5291.005291005291
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 861.0
+[CLEANUP], MinLatency(us), 861
+[CLEANUP], MaxLatency(us), 861
+[CLEANUP], 95thPercentileLatency(us), 861
+[CLEANUP], 99thPercentileLatency(us), 861
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 122.826
+[INSERT], MinLatency(us), 10
+[INSERT], MaxLatency(us), 71615
+[INSERT], 95thPercentileLatency(us), 96
+[INSERT], 99thPercentileLatency(us), 212
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 6
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 205
+[OVERALL], Throughput(ops/sec), 4878.048780487805
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 692.0
+[CLEANUP], MinLatency(us), 692
+[CLEANUP], MaxLatency(us), 692
+[CLEANUP], 95thPercentileLatency(us), 692
+[CLEANUP], 99thPercentileLatency(us), 692
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 140.245
+[INSERT], MinLatency(us), 22
+[INSERT], MaxLatency(us), 76223
+[INSERT], 95thPercentileLatency(us), 113
+[INSERT], 99thPercentileLatency(us), 170
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 7
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 176
+[OVERALL], Throughput(ops/sec), 5681.818181818182
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 644.0
+[CLEANUP], MinLatency(us), 644
+[CLEANUP], MaxLatency(us), 644
+[CLEANUP], 95thPercentileLatency(us), 644
+[CLEANUP], 99thPercentileLatency(us), 644
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 113.818
+[INSERT], MinLatency(us), 12
+[INSERT], MaxLatency(us), 66559
+[INSERT], 95thPercentileLatency(us), 94
+[INSERT], 99thPercentileLatency(us), 163
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 8
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 177
+[OVERALL], Throughput(ops/sec), 5649.717514124294
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 719.0
+[CLEANUP], MinLatency(us), 719
+[CLEANUP], MaxLatency(us), 719
+[CLEANUP], 95thPercentileLatency(us), 719
+[CLEANUP], 99thPercentileLatency(us), 719
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 117.654
+[INSERT], MinLatency(us), 12
+[INSERT], MaxLatency(us), 70399
+[INSERT], 95thPercentileLatency(us), 82
+[INSERT], 99thPercentileLatency(us), 140
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 9
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 203
+[OVERALL], Throughput(ops/sec), 4926.108374384236
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 621.0
+[CLEANUP], MinLatency(us), 621
+[CLEANUP], MaxLatency(us), 621
+[CLEANUP], 95thPercentileLatency(us), 621
+[CLEANUP], 99thPercentileLatency(us), 621
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 142.335
+[INSERT], MinLatency(us), 12
+[INSERT], MaxLatency(us), 78399
+[INSERT], 95thPercentileLatency(us), 98
+[INSERT], 99thPercentileLatency(us), 300
+[INSERT], Return=OK, 1000
+
+##################################################################################
+
+Running Load workload try 10
+
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+[OVERALL], RunTime(ms), 172
+[OVERALL], Throughput(ops/sec), 5813.953488372093
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 747.0
+[CLEANUP], MinLatency(us), 747
+[CLEANUP], MaxLatency(us), 747
+[CLEANUP], 95thPercentileLatency(us), 747
+[CLEANUP], 99thPercentileLatency(us), 747
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 113.165
+[INSERT], MinLatency(us), 11
+[INSERT], MaxLatency(us), 69951
+[INSERT], 95thPercentileLatency(us), 84
+[INSERT], 99thPercentileLatency(us), 134
+[INSERT], Return=OK, 1000

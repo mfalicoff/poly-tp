@@ -1,0 +1,21 @@
+- name: Set common file paths
+  set_fact:
+    mongo_load_path: "/home/vagrant/results/mongo_load_{{ node_count }}nodes_{{ workload.name }}.csv"
+    mongo_run_path: "/home/vagrant/results/mongo_run_{{ node_count }}nodes_{{ workload.name }}.csv"
+
+- name: Run YCSB Mongo 10 times
+  include_tasks: mongo_loop.yaml
+  vars:
+    loop_iteration: "{{ iteration }}"
+  loop: "{{ range(1, 11) | list }}"
+  loop_control:
+    loop_var: iteration
+
+- name: Fetch results to local machine
+  fetch:
+    src: "{{ item }}"
+    dest: "../results/raw/"
+    flat: yes
+  with_items:
+    - "{{ mongo_load_path }}"
+    - "{{ mongo_run_path }}"

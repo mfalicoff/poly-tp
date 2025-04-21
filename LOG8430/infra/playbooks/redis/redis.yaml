@@ -1,0 +1,22 @@
+- name: Execute Redis
+  block:
+    - name: Start Redis services
+      command: docker-compose -f docker/docker-compose-redis.yml up --scale redis-master=1 --scale redis-replica={{ node_count }} -d
+
+    - name: Wait for Redis to start
+      pause:
+        seconds: 10
+
+    - name: Execute Redis with {{ node_count }} nodes
+      include_tasks: redis/redis_nodeIt.yaml
+      vars:
+        workload: "{{ workload_item }}"
+      loop:
+        - { name: "workload_100_0" }
+        - { name: "workload_50_50" }
+        - { name: "workload_10_90" }
+      loop_control:
+        loop_var: workload_item
+
+    - name: Stop Redis services
+      command: docker-compose -f docker/docker-compose-redis.yml down

@@ -1,0 +1,129 @@
+- hosts: all
+  become: yes
+  vars:
+    python_version: "2"
+    ycsb_repo: "http://github.com/brianfrankcooper/YCSB.git"
+    docker_apt_repo: "deb [arch={{ 'amd64' if ansible_architecture == 'x86_64' else 'arm64' }}] https://download.docker.com/linux/ubuntu {{ ansible_distribution_release }} stable"
+
+  tasks:
+    - name: General System Updates and Package Installation
+      block:
+        - name: Update APT cache
+          apt:
+            update_cache: yes
+            cache_valid_time: 3600
+
+        - name: Upgrade all packages to the latest version
+          apt:
+            upgrade: dist
+
+        - name: Install Common Dependencies
+          apt:
+            name:
+              - git
+              - "python{{ python_version }}"
+              - python3-virtualenv
+              - default-jre
+              - maven
+              - ca-certificates
+              - curl
+              - apt-transport-https
+              - software-properties-common
+              - docker-compose
+
+    - name: Docker Setup
+      block:
+        - name: Add Docker GPG key
+          apt_key:
+            url: "https://download.docker.com/linux/ubuntu/gpg"
+
+        - name: Add Docker APT repository
+          apt_repository:
+            repo: "{{ docker_apt_repo }}"
+
+        - name: Install Docker
+          apt:
+            name: docker-ce
+            state: present
+
+        - name: Ensure Docker service is enabled and started
+          systemd:
+            name: docker
+            state: started
+            enabled: yes
+
+    - name: Python 2 Specific Tasks
+      block:
+        - name: Install pip for Python 2
+          ansible.builtin.shell: |
+            curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
+            python2 get-pip.py
+          args:
+            executable: /bin/bash
+            creates: "/usr/local/bin/pip2"
+
+        - name: Create Python 2 virtual environment and clone YCSB repository
+          block:
+            - name: Create directory for YCSB
+              file:
+                path: "./YCSB"
+                state: directory
+
+            - name: Create Python 2 virtual environment
+              shell: virtualenv -p /usr/bin/python{{ python_version }} YCSB/venv
+              args:
+                creates: "YCSB/venv"
+
+            - name: Clone YCSB repository
+              git:
+                repo: "{{ ycsb_repo }}"
+                dest: "./YCSB/YCSB"
+
+            - name: Install YCSB dependencies
+              shell: cd ./YCSB/YCSB && mvn -pl site.ycsb:redis-binding -am clean package
+
+    - name: YCSB Configuration
+      block:
+        - name: Create directories Databases
+          file:
+            path: "{{ item }}"
+            state: directory
+          with_items:
+            - "/home/vagrant/results"
+
+        - name: Copy docker compose files configuration to remote host
+          copy:
+            src: "{{ item }}"
+            dest: "/home/vagrant/docker/"
+          with_items:
+            - "docker-compose-redis.yml"
+            - "docker-compose-mongo-3nodes.yml"
+            - "docker-compose-mongo-5nodes.yml"
+
+        - name: Copy workload files to remote host
+          copy:
+            src: "{{ item }}"
+            dest: "/home/vagrant/YCSB/YCSB/workloads/"
+          with_items:
+            - "../workloads/workload_100_0"
+            - "../workloads/workload_50_50"
+            - "../workloads/workload_10_90"
+
+    - name: Execute Benchmarks
+      block:
+        - name: Execute Redis benchmarks
+          include_tasks: redis/redis.yaml
+          vars:
+            node_count: "{{ item }}"
+          loop: [3, 5]
+
+        - name: Execute Mongo benchmarks
+          include_tasks: mongo/mongo.yaml
+          vars:
+              node_count: "{{ item }}"
+          loop: [3, 5]
+
+      rescue:
+        - name: Handle errors here
+          debug:
+            msg: "An error occurred."

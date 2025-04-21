@@ -1,0 +1,31 @@
+- name: Mongo Append header line
+  ansible.builtin.lineinfile:
+    path: "{{ item }}"
+    line: "\n##################################################################################\n"
+    create: yes
+  loop:
+    - "{{ mongo_load_path }}"
+    - "{{ mongo_run_path }}"
+
+- name: Mongo Append test workload message
+  ansible.builtin.lineinfile:
+    path: "{{ item.path }}"
+    line: "Running {{ item.message }} workload try {{ item.iteration }}\n"
+    create: yes
+  loop:
+    - { path: "{{ mongo_load_path }}", message: "Load", iteration: "{{ loop_iteration }}" }
+    - { path: "{{ mongo_run_path }}", message: "Run", iteration: "{{ loop_iteration }}" }
+
+- name: Mongo Run YCSB load command iteration {{ loop_iteration }}
+  ansible.builtin.shell: >
+    cd YCSB/YCSB && bin/ycsb load mongodb-async -s -P workloads/{{ workload.name }}
+    -p mongodb.url=mongodb://192.168.5.2:27017/ycsb?w=0 >> "{{ mongo_load_path }}"
+  environment:
+    PATH: "/home/vagrant/YCSB/venv/bin:{{ ansible_env.PATH }}"
+
+- name: Mongo Run YCSB Run command iteration {{ loop_iteration }}
+  ansible.builtin.shell: >
+    cd YCSB/YCSB && bin/ycsb run mongodb-async -s -P workloads/{{ workload.name }}
+    -p mongodb.url=mongodb://192.168.5.2:27017/ycsb?w=0 >> "{{ mongo_run_path }}"
+  environment:
+    PATH: "/home/vagrant/YCSB/venv/bin:{{ ansible_env.PATH }}"

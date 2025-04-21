@@ -1,0 +1,21 @@
+- name: Set common file paths for Redis
+  set_fact:
+    redis_load_path: "/home/vagrant/results/redis_load_{{ node_count }}nodes_{{ workload.name }}.csv"
+    redis_run_path: "/home/vagrant/results/redis_run_{{ node_count }}nodes_{{ workload.name }}.csv"
+
+- name: Run YCSB redis 10 times
+  include_tasks: redis_loop.yaml
+  vars:
+    loop_iteration: "{{ iteration }}"
+  loop: "{{ range(1, 11) | list }}"
+  loop_control:
+    loop_var: iteration
+
+- name: Fetch results to local machine
+  fetch:
+    src: "{{ item }}"
+    dest: "../results/raw/"
+    flat: yes
+  with_items:
+    - "{{ redis_load_path }}"
+    - "{{ redis_run_path }}"

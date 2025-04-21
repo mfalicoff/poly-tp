@@ -1,0 +1,24 @@
+Vagrant.configure("2") do |config|
+    config.vm.box = "bento/ubuntu-20.04"
+    config.vm.disk :disk, size: "25GB", primary: true
+
+  config.vm.network "public_network"
+
+  config.vm.provision "ansible" do |ansible|
+      ansible.verbose = "v"
+      ansible.playbook = "playbooks/playbook.yaml"
+      ansible.become = true
+      ansible.compatibility_mode = "2.0"
+  end
+
+  config.vm.provider "virtualbox" do |vb|
+        vb.memory = "8096"
+        vb.cpus = 4
+  end
+
+  config.vm.provider "parallels" do |prls|
+    prls.memory = "8096"
+    prls.cpus = 4
+  end
+
+end

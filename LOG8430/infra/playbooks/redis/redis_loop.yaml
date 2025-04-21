@@ -1,0 +1,33 @@
+- name: Redis Append header line
+  ansible.builtin.lineinfile:
+    path: "{{ item }}"
+    line: "\n##################################################################################\n"
+    create: yes
+  loop:
+    - "{{ redis_load_path }}"
+    - "{{ redis_run_path }}"
+
+- name: Redis Append test workload message
+  ansible.builtin.lineinfile:
+    path: "{{ item.path }}"
+    line: "Running {{ item.message }} workload try {{ item.iteration }}\n"
+    create: yes
+  loop:
+    - { path: "{{ redis_load_path }}", message: "Load", iteration: "{{ loop_iteration }}" }
+    - { path: "{{ redis_run_path }}", message: "Run", iteration: "{{ loop_iteration }}" }
+
+- name: Redis Run YCSB load command iteration {{ loop_iteration }}
+  ansible.builtin.shell: >
+    cd YCSB/YCSB && bin/ycsb load redis -s -P workloads/{{ workload.name }}
+    -p "redis.host=127.0.0.1" -p "redis.port=6379"
+    >> "{{ redis_load_path }}"
+  environment:
+    PATH: "/home/vagrant/YCSB/venv/bin:{{ ansible_env.PATH }}"
+
+- name: Redis Run YCSB Run command iteration {{ loop_iteration }}
+  ansible.builtin.shell: >
+    cd YCSB/YCSB && bin/ycsb run redis -s -P workloads/{{ workload.name }}
+    -p "redis.host=127.0.0.1" -p "redis.port=6379"
+    >> "{{ redis_run_path }}"
+  environment:
+    PATH: "/home/vagrant/YCSB/venv/bin:{{ ansible_env.PATH }}"

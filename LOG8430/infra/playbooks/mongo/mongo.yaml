@@ -1,0 +1,54 @@
+- name: Execute Mongo
+  block:
+    - name: Start Mongo services
+      command: docker-compose -f docker/docker-compose-mongo-{{ node_count }}nodes.yml up -d
+
+    - name: Initiate replica set
+      ansible.builtin.shell: |
+        docker exec -it primary_3nodes mongosh --eval "rs.initiate({
+          _id: 'myReplicaSet',
+          members: [
+            {_id: 0, host: '192.168.5.2:27017'},
+            {_id: 1, host: '192.168.5.3:27017'},
+            {_id: 2, host: '192.168.5.4:27017'},
+            {_id: 3, host: '192.168.5.5:27017'}
+          ]
+        })"
+      args:
+        executable: /bin/bash
+      when: node_count == 3
+
+    - name: Initiate replica set
+      ansible.builtin.shell: |
+        docker exec -it primary_5nodes mongosh --eval "rs.initiate({
+          _id: 'myReplicaSet',
+          members: [
+            {_id: 0, host: '192.168.5.2:27017'},
+            {_id: 1, host: '192.168.5.3:27017'},
+            {_id: 2, host: '192.168.5.4:27017'},
+            {_id: 3, host: '192.168.5.5:27017'},
+            {_id: 4, host: '192.168.5.6:27017'},
+            {_id: 5, host: '192.168.5.7:27017'}
+          ]
+        })"
+      args:
+        executable: /bin/bash
+      when: node_count == 5
+
+    - name: Wait for Mongo to start
+      pause:
+        seconds: 10
+
+    - name: Execute Mongo with {{ node_count }} nodes
+      include_tasks: mongo/mongo_nodeIt.yaml
+      vars:
+        workload: "{{ workload_item }}"
+      loop:
+        - { name: "workload_100_0" }
+        - { name: "workload_50_50" }
+        - { name: "workload_10_90" }
+      loop_control:
+        loop_var: workload_item
+
+    - name: Stop Mongo services
+      command: docker-compose -f docker/docker-compose-mongo-{{ node_count }}nodes.yml down

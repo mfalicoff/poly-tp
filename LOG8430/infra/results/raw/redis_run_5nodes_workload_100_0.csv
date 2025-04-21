@@ -1,0 +1,580 @@
+
+##################################################################################
+
+Running Run workload try 1
+
+[OVERALL], RunTime(ms), 136
+[OVERALL], Throughput(ops/sec), 7352.941176470588
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 101.963
+[READ], MinLatency(us), 56
+[READ], MaxLatency(us), 4959
+[READ], 95thPercentileLatency(us), 135
+[READ], 99thPercentileLatency(us), 164
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 388.0
+[CLEANUP], MinLatency(us), 388
+[CLEANUP], MaxLatency(us), 388
+[CLEANUP], 95thPercentileLatency(us), 388
+[CLEANUP], 99thPercentileLatency(us), 388
+
+##################################################################################
+
+Running Run workload try 2
+
+[OVERALL], RunTime(ms), 119
+[OVERALL], Throughput(ops/sec), 8403.361344537816
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 85.082
+[READ], MinLatency(us), 57
+[READ], MaxLatency(us), 5039
+[READ], 95thPercentileLatency(us), 108
+[READ], 99thPercentileLatency(us), 151
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 319.0
+[CLEANUP], MinLatency(us), 319
+[CLEANUP], MaxLatency(us), 319
+[CLEANUP], 95thPercentileLatency(us), 319
+[CLEANUP], 99thPercentileLatency(us), 319
+
+##################################################################################
+
+Running Run workload try 3
+
+[OVERALL], RunTime(ms), 126
+[OVERALL], Throughput(ops/sec), 7936.507936507936
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 91.683
+[READ], MinLatency(us), 56
+[READ], MaxLatency(us), 5343
+[READ], 95thPercentileLatency(us), 152
+[READ], 99thPercentileLatency(us), 188
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 323.0
+[CLEANUP], MinLatency(us), 323
+[CLEANUP], MaxLatency(us), 323
+[CLEANUP], 95thPercentileLatency(us), 323
+[CLEANUP], 99thPercentileLatency(us), 323
+
+##################################################################################
+
+Running Run workload try 4
+
+[OVERALL], RunTime(ms), 128
+[OVERALL], Throughput(ops/sec), 7812.5
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 93.32
+[READ], MinLatency(us), 64
+[READ], MaxLatency(us), 5235
+[READ], 95thPercentileLatency(us), 114
+[READ], 99thPercentileLatency(us), 159
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 344.0
+[CLEANUP], MinLatency(us), 344
+[CLEANUP], MaxLatency(us), 344
+[CLEANUP], 95thPercentileLatency(us), 344
+[CLEANUP], 99thPercentileLatency(us), 344
+
+##################################################################################
+
+Running Run workload try 5
+
+[OVERALL], RunTime(ms), 124
+[OVERALL], Throughput(ops/sec), 8064.5161290322585
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 90.169
+[READ], MinLatency(us), 50
+[READ], MaxLatency(us), 5239
+[READ], 95thPercentileLatency(us), 125
+[READ], 99thPercentileLatency(us), 196
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 308.0
+[CLEANUP], MinLatency(us), 308
+[CLEANUP], MaxLatency(us), 308
+[CLEANUP], 95thPercentileLatency(us), 308
+[CLEANUP], 99thPercentileLatency(us), 308
+
+##################################################################################
+
+Running Run workload try 6
+
+[OVERALL], RunTime(ms), 145
+[OVERALL], Throughput(ops/sec), 6896.551724137931
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 103.631
+[READ], MinLatency(us), 60
+[READ], MaxLatency(us), 8447
+[READ], 95thPercentileLatency(us), 138
+[READ], 99thPercentileLatency(us), 186
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 318.0
+[CLEANUP], MinLatency(us), 318
+[CLEANUP], MaxLatency(us), 318
+[CLEANUP], 95thPercentileLatency(us), 318
+[CLEANUP], 99thPercentileLatency(us), 318
+
+##################################################################################
+
+Running Run workload try 7
+
+[OVERALL], RunTime(ms), 120
+[OVERALL], Throughput(ops/sec), 8333.333333333334
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 85.358
+[READ], MinLatency(us), 56
+[READ], MaxLatency(us), 5403
+[READ], 95thPercentileLatency(us), 105
+[READ], 99thPercentileLatency(us), 147
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 311.0
+[CLEANUP], MinLatency(us), 311
+[CLEANUP], MaxLatency(us), 311
+[CLEANUP], 95thPercentileLatency(us), 311
+[CLEANUP], 99thPercentileLatency(us), 311
+
+##################################################################################
+
+Running Run workload try 8
+
+[OVERALL], RunTime(ms), 119
+[OVERALL], Throughput(ops/sec), 8403.361344537816
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 84.911
+[READ], MinLatency(us), 50
+[READ], MaxLatency(us), 5543
+[READ], 95thPercentileLatency(us), 107
+[READ], 99thPercentileLatency(us), 138
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 308.0
+[CLEANUP], MinLatency(us), 308
+[CLEANUP], MaxLatency(us), 308
+[CLEANUP], 95thPercentileLatency(us), 308
+[CLEANUP], 99thPercentileLatency(us), 308
+
+##################################################################################
+
+Running Run workload try 9
+
+[OVERALL], RunTime(ms), 136
+[OVERALL], Throughput(ops/sec), 7352.941176470588
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 100.135
+[READ], MinLatency(us), 58
+[READ], MaxLatency(us), 5039
+[READ], 95thPercentileLatency(us), 122
+[READ], 99thPercentileLatency(us), 152
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 329.0
+[CLEANUP], MinLatency(us), 329
+[CLEANUP], MaxLatency(us), 329
+[CLEANUP], 95thPercentileLatency(us), 329
+[CLEANUP], 99thPercentileLatency(us), 329
+
+##################################################################################
+
+Running Run workload try 10
+
+[OVERALL], RunTime(ms), 135
+[OVERALL], Throughput(ops/sec), 7407.407407407408
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 95.122
+[READ], MinLatency(us), 60
+[READ], MaxLatency(us), 7535
+[READ], 95thPercentileLatency(us), 116
+[READ], 99thPercentileLatency(us), 149
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 380.0
+[CLEANUP], MinLatency(us), 380
+[CLEANUP], MaxLatency(us), 380
+[CLEANUP], 95thPercentileLatency(us), 380
+[CLEANUP], 99thPercentileLatency(us), 380
+
+##################################################################################
+
+Running Run workload try 1
+
+[OVERALL], RunTime(ms), 136
+[OVERALL], Throughput(ops/sec), 7352.941176470588
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 96.718
+[READ], MinLatency(us), 59
+[READ], MaxLatency(us), 7907
+[READ], 95thPercentileLatency(us), 126
+[READ], 99thPercentileLatency(us), 181
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 351.0
+[CLEANUP], MinLatency(us), 351
+[CLEANUP], MaxLatency(us), 351
+[CLEANUP], 95thPercentileLatency(us), 351
+[CLEANUP], 99thPercentileLatency(us), 351
+
+##################################################################################
+
+Running Run workload try 2
+
+[OVERALL], RunTime(ms), 122
+[OVERALL], Throughput(ops/sec), 8196.72131147541
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 88.361
+[READ], MinLatency(us), 56
+[READ], MaxLatency(us), 5187
+[READ], 95thPercentileLatency(us), 107
+[READ], 99thPercentileLatency(us), 139
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 321.0
+[CLEANUP], MinLatency(us), 321
+[CLEANUP], MaxLatency(us), 321
+[CLEANUP], 95thPercentileLatency(us), 321
+[CLEANUP], 99thPercentileLatency(us), 321
+
+##################################################################################
+
+Running Run workload try 3
+
+[OVERALL], RunTime(ms), 126
+[OVERALL], Throughput(ops/sec), 7936.507936507936
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 91.749
+[READ], MinLatency(us), 61
+[READ], MaxLatency(us), 5651
+[READ], 95thPercentileLatency(us), 120
+[READ], 99thPercentileLatency(us), 174
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 333.0
+[CLEANUP], MinLatency(us), 333
+[CLEANUP], MaxLatency(us), 333
+[CLEANUP], 95thPercentileLatency(us), 333
+[CLEANUP], 99thPercentileLatency(us), 333
+
+##################################################################################
+
+Running Run workload try 4
+
+[OVERALL], RunTime(ms), 131
+[OVERALL], Throughput(ops/sec), 7633.587786259542
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 96.511
+[READ], MinLatency(us), 55
+[READ], MaxLatency(us), 5559
+[READ], 95thPercentileLatency(us), 132
+[READ], 99thPercentileLatency(us), 168
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 325.0
+[CLEANUP], MinLatency(us), 325
+[CLEANUP], MaxLatency(us), 325
+[CLEANUP], 95thPercentileLatency(us), 325
+[CLEANUP], 99thPercentileLatency(us), 325
+
+##################################################################################
+
+Running Run workload try 5
+
+[OVERALL], RunTime(ms), 133
+[OVERALL], Throughput(ops/sec), 7518.796992481203
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 97.102
+[READ], MinLatency(us), 52
+[READ], MaxLatency(us), 5847
+[READ], 95thPercentileLatency(us), 130
+[READ], 99thPercentileLatency(us), 161
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 386.0
+[CLEANUP], MinLatency(us), 386
+[CLEANUP], MaxLatency(us), 386
+[CLEANUP], 95thPercentileLatency(us), 386
+[CLEANUP], 99thPercentileLatency(us), 386
+
+##################################################################################
+
+Running Run workload try 6
+
+[OVERALL], RunTime(ms), 128
+[OVERALL], Throughput(ops/sec), 7812.5
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 91.789
+[READ], MinLatency(us), 56
+[READ], MaxLatency(us), 5447
+[READ], 95thPercentileLatency(us), 114
+[READ], 99thPercentileLatency(us), 159
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 325.0
+[CLEANUP], MinLatency(us), 325
+[CLEANUP], MaxLatency(us), 325
+[CLEANUP], 95thPercentileLatency(us), 325
+[CLEANUP], 99thPercentileLatency(us), 325
+
+##################################################################################
+
+Running Run workload try 7
+
+[OVERALL], RunTime(ms), 131
+[OVERALL], Throughput(ops/sec), 7633.587786259542
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 90.928
+[READ], MinLatency(us), 56
+[READ], MaxLatency(us), 7851
+[READ], 95thPercentileLatency(us), 109
+[READ], 99thPercentileLatency(us), 143
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 375.0
+[CLEANUP], MinLatency(us), 375
+[CLEANUP], MaxLatency(us), 375
+[CLEANUP], 95thPercentileLatency(us), 375
+[CLEANUP], 99thPercentileLatency(us), 375
+
+##################################################################################
+
+Running Run workload try 8
+
+[OVERALL], RunTime(ms), 121
+[OVERALL], Throughput(ops/sec), 8264.462809917355
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 87.185
+[READ], MinLatency(us), 48
+[READ], MaxLatency(us), 5243
+[READ], 95thPercentileLatency(us), 114
+[READ], 99thPercentileLatency(us), 153
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 327.0
+[CLEANUP], MinLatency(us), 327
+[CLEANUP], MaxLatency(us), 327
+[CLEANUP], 95thPercentileLatency(us), 327
+[CLEANUP], 99thPercentileLatency(us), 327
+
+##################################################################################
+
+Running Run workload try 9
+
+[OVERALL], RunTime(ms), 125
+[OVERALL], Throughput(ops/sec), 8000.0
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 91.475
+[READ], MinLatency(us), 53
+[READ], MaxLatency(us), 4875
+[READ], 95thPercentileLatency(us), 139
+[READ], 99thPercentileLatency(us), 168
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 401.0
+[CLEANUP], MinLatency(us), 401
+[CLEANUP], MaxLatency(us), 401
+[CLEANUP], 95thPercentileLatency(us), 401
+[CLEANUP], 99thPercentileLatency(us), 401
+
+##################################################################################
+
+Running Run workload try 10
+
+[OVERALL], RunTime(ms), 137
+[OVERALL], Throughput(ops/sec), 7299.270072992701
+[TOTAL_GCS_G1_Young_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.0
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 0
+[TOTAL_GC_TIME], Time(ms), 0
+[TOTAL_GC_TIME_%], Time(%), 0.0
+[READ], Operations, 1000
+[READ], AverageLatency(us), 101.095
+[READ], MinLatency(us), 59
+[READ], MaxLatency(us), 5699
+[READ], 95thPercentileLatency(us), 128
+[READ], 99thPercentileLatency(us), 170
+[READ], Return=OK, 1000
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 374.0
+[CLEANUP], MinLatency(us), 374
+[CLEANUP], MaxLatency(us), 374
+[CLEANUP], 95thPercentileLatency(us), 374
+[CLEANUP], 99thPercentileLatency(us), 374
